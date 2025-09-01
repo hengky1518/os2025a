@@ -1,0 +1,37 @@
+ls = 
+
+ls 옵션 a = 숨긴 폴더 까지 보기
+
+touch  =파일 만들기
+
+cat       =txt 파일 읽기
+
+cd        = (change directory)  
+
+cd ..     = 상위 폴더 이동
+
+git init = .git 폴더 생성 →파일을 git 이 관리함
+
+git status  = 현재 깃이 관리하고 있는 폴더에 상태를 보여줌 → 관리하고 있지 않으면 안나옴
+
+git add  “제목”  =  커밋할 파일 추가함
+
+git add . =현재 폴더 모든 파일을 커밋할 준비
+
+git config - - global [user.email](http://user.email) “이메일 주소”
+
+git config - - global [user.name](http://user.email) “ID”
+
+git config - - list =등록된 정보 확인
+
+git commit - m “커밋에 남길 메시지” =
+
+git log = 세부정보
+
+commit hash코드 = 식별코드 
+
+git check out hash코드(전체 혹은 앞에7자리) =  그시점으로 돌아가기 
+
+git check out - = 바로 이전 브랜치로 이동
+
+. = 현재 폴더를 의미
