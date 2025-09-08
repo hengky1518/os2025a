@@ -7,11 +7,15 @@ ehco”내용”
 echo “내용”  >> 파일이름  
 하면 내용을 파일 안에 집어 넣음(파일이 없다면 생성)
 
+rm 파일명 →파일삭제
+
+history 그동안의 명령어를 다 볼 수 있는 명령어 
+
 git branch -m main 
 
 브랜치 이름 변경
 
-git remote add origin 원격 리포지토리 주소
+git remote add origin 원격 리포지토리 주소   원격 리포지 주소= [github.com/아이디/원격](http://github.com/아이디/원격) 리포지토리 이름.git
 
 git remote -v 
 
@@ -26,3 +30,9 @@ git push -u origin main
 git clone 시 git 뒤에 띄어쓰기 . 넣을경우 폴더가 없이 파일들만 해당 폴더에 클론됨
 
 git config —list 했을때 오리진 위치가 남아있다면 push 할때 -u 오리진 브랜치 생략해도됨
+
+남의 것을 받아와 수정하여도 수정하기전 커밋은 원작자의 정보가 남음
+
+git remote remove origin으로 오리진 제거후
+
+git  remote add origin 으로 내 오리진 추가
