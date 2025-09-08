@@ -7,4 +7,22 @@ ehco”내용”
 echo “내용”  >> 파일이름  
 하면 내용을 파일 안에 집어 넣음(파일이 없다면 생성)
 
-git
+git branch -m main 
+
+브랜치 이름 변경
+
+git remote add origin 원격 리포지토리 주소
+
+git remote -v 
+
+**현재 로컬 저장소에 연결된 원격(remote) 저장소들의 목록과 주소(URL)** 를 보여주는 명령어
+
+git push -u origin main 
+
+오리진 위치에 메인 브랜치에 업로드 하는 명령어
+
+![image.png](attachment:30dbfefd-ef81-42a9-b70b-5dfa1ff7a252:image.png)
+
+git clone 시 git 뒤에 띄어쓰기 . 넣을경우 폴더가 없이 파일들만 해당 폴더에 클론됨
+
+git config —list 했을때 오리진 위치가 남아있다면 push 할때 -u 오리진 브랜치 생략해도됨
