@@ -1,0 +1,7 @@
+깃 명령어
+git fetch
+git pull
+
+git commit --admend -m "파일명" <-이름수정
+
+git reset  --hard HEAD~숫자 ← 최근 커밋부터 삭제할 [숫자]
