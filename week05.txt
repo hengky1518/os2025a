@@ -1,0 +1,12 @@
+리눅스 명령어
+history | less
+
+깃 명령어
+git fetch
+git pull
+
+git commit --admend -m "파일명" <-이름수정
+
+git reset  --hard HEAD~숫자 ← 최근 커밋부터 삭제할 [숫자]
+
+git push -f origin main ←강제푸시 (f= force, 강제성)
