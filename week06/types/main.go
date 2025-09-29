@@ -2,12 +2,14 @@ package main
 
 import (
 	"fmt"
-	"math"
-	"strings"
+	"reflect"
 )
 
 func main() {
-	fmt.Println(math.Floor(2.71))
-	fmt.Println(strings.Title("head first go"))
+	//name:=2.71
+	var name float64
+	name = 2.71
+
+	fmt.Println(name, reflect.TypeOf(name))
 
 }
