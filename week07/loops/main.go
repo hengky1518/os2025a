@@ -30,10 +30,12 @@ func main() {
 		log.Fatal(err) //report the error and exit the program
 	}
 
+	var pf string
+
 	if score >= 60 {
-		fmt.Println("Pass")
+		pf = "Pass"
 	} else {
-		fmt.Println("Fail")
+		pf = "Fail"
 	}
-	fmt.Println(i)
+	fmt.Println(pf, score)
 }
