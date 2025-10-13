@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 	"time"
 )
 
@@ -9,8 +10,8 @@ func main() {
 	var now time.Time = time.Now()
 	var day int = now.Day()
 	fmt.Println(day)
-	// broken := "G# r#cks!"
-	// replacer := strings.NewReplacer("#", "o")
-	// fixed := replacer.Replace(broken)
-	// fmt.Println(fixed)
+	univ := "Go$ Inha$"
+	changer := strings.NewReplacer("$", "!")
+	changed := changer.Replace(univ)
+	fmt.Println(changed)
 }
