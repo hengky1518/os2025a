@@ -10,5 +10,5 @@ func main() {
 	greeting.Hello()
 	greeting.Hi()
 	korean.Anyunghaseyo()
-	deutsch.GutenTag()
+	deutsch.Anyunghaseyo()
 }
