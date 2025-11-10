@@ -1,13 +1,14 @@
-package main{
+package main
 
-func main(){
+import "fmt"
+
+func main() {
 	var subjects []string
-	subjects=make([]string,3)
-	subjects[0]="Go"
-	subjects[2]="Python"
+	subjects = make([]string, 3)
+	subjects[0] = "Go"
+	subjects[2] = "Python"
 
-	for_, subjects:=range subjects{
+	for _, subjects := range subjects {
 		fmt.Println(subjects)
 	}
-}
 }
